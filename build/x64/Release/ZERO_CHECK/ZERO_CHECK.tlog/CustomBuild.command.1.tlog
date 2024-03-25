@@ -1,0 +1,10 @@
+^D:\GITHUB LOCAL REPOS\FRC-NOTE-VISION\BUILD\CMAKEFILES\B7DDE83DB80129B67D1A25EDBB00C98E\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SD:/github local repos/frc-note-vision" "-BD:/github local repos/frc-note-vision/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "D:/github local repos/frc-note-vision/build/frc-note-vision.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

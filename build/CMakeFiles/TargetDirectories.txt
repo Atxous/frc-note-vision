@@ -1,0 +1,3 @@
+D:/github local repos/frc-note-vision/build/CMakeFiles/frc-note-vision.dir
+D:/github local repos/frc-note-vision/build/CMakeFiles/ALL_BUILD.dir
+D:/github local repos/frc-note-vision/build/CMakeFiles/ZERO_CHECK.dir
