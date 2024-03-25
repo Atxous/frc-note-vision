@@ -1,6 +1,7 @@
 #include <opencv2/opencv.hpp>
 #include <vector>
 #include <thresholding.h>
+#include <math.h>
 
 using namespace cv;
 
@@ -13,7 +14,8 @@ const Scalar upperRange = Scalar(20, 255, 255);
 const Scalar lowerRange = Scalar(3, 80, 100);
 const double ellipticalThreshold = 0.9;
 const double distanceThreshold = 0.25;
-const double pixelInchDepth = 176.5 / 2.54 * 164;
+const double pixelInchDepth = 176.5 * 164 * 10;
+const double PI = 3.14159265358979323846;
 
 void filterBasedOnEllipticality(const Mat& img, std::vector<std::vector<Point>>& rings) {
     for (std::vector<Point> ring : rings) {
@@ -143,10 +145,24 @@ int main() {
                 circle(undistorted_image, center, 5, Scalar(255, 0, 0), -1);
 
                 // also add z coordinate
-                std::cout << center << std::endl;
                 double z = pixelInchDepth / (1/scalingFactor * bbox.width);
-                std::cout << z << std::endl;
 
+                // mm per pixel
+                double scaler = (1280 / bbox.width * 360) / 1280;
+                
+                // undistort the center
+                Point img_center = Point(640, 480);
+                std::vector<Point2f> srcPoints2 = {img_center};
+                std::vector<Point2f> dstPoints2;
+                img_center = dstPoints2[0];
+                undistortPoints(srcPoints2, dstPoints2, camMatrix, distCoeffs, noArray(), newcameramatrix);
+                circle(undistorted_image, dstPoints2[0], 5, Scalar(255, 0, 0), -1);
+
+                // Calculate the angle wrt to the center
+                double angle = asin((center.x - dstPoints2[0].x) * scaler / z) * 180 / PI;
+
+                // Coords are in (undistorted) image space (x, y, z, angle offset from undistorted center)
+                double coords[4] = {static_cast<double>(img_center.x), static_cast<double>(img_center.y), z, angle};
                 // Draw a small point at the center
                 rectangle(img, bbox, Scalar(0, 255, 0), 2);
             }

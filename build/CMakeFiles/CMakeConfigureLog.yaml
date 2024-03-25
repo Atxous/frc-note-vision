@@ -26,7 +26,7 @@ events:
       Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
       Copyright (C) Microsoft Corporation. All rights reserved.
       
-      Build started 3/24/2024 6:30:27 PM.
+      Build started 3/25/2024 12:38:47 AM.
       Project "D:\\github local repos\\frc-note-vision\\build\\CMakeFiles\\3.29.0-rc2\\CompilerIdC\\CompilerIdC.vcxproj" on node 1 (default targets).
       PrepareForBuild:
         Creating directory "Debug\\".
@@ -80,7 +80,7 @@ events:
       Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
       Copyright (C) Microsoft Corporation. All rights reserved.
       
-      Build started 3/24/2024 6:30:28 PM.
+      Build started 3/25/2024 12:38:47 AM.
       Project "D:\\github local repos\\frc-note-vision\\build\\CMakeFiles\\3.29.0-rc2\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
       PrepareForBuild:
         Creating directory "Debug\\".
@@ -106,7 +106,7 @@ events:
           0 Warning(s)
           0 Error(s)
       
-      Time Elapsed 00:00:00.58
+      Time Elapsed 00:00:00.47
       
       
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
@@ -125,47 +125,48 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "D:/github local repos/frc-note-vision/build/CMakeFiles/CMakeScratch/TryCompile-ervkvr"
-      binary: "D:/github local repos/frc-note-vision/build/CMakeFiles/CMakeScratch/TryCompile-ervkvr"
+      source: "D:/github local repos/frc-note-vision/build/CMakeFiles/CMakeScratch/TryCompile-tnntvd"
+      binary: "D:/github local repos/frc-note-vision/build/CMakeFiles/CMakeScratch/TryCompile-tnntvd"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
     buildResult:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'D:/github local repos/frc-note-vision/build/CMakeFiles/CMakeScratch/TryCompile-ervkvr'
+        Change Dir: 'D:/github local repos/frc-note-vision/build/CMakeFiles/CMakeScratch/TryCompile-tnntvd'
         
-        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe" cmTC_82141.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe" cmTC_c02d3.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
         Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
         Copyright (C) Microsoft Corporation. All rights reserved.
         
-        Build started 3/24/2024 6:30:29 PM.
-        Project "D:\\github local repos\\frc-note-vision\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ervkvr\\cmTC_82141.vcxproj" on node 1 (default targets).
+        Build started 3/25/2024 12:38:48 AM.
+        Project "D:\\github local repos\\frc-note-vision\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tnntvd\\cmTC_c02d3.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_82141.dir\\Debug\\".
-          Creating directory "D:\\github local repos\\frc-note-vision\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ervkvr\\Debug\\".
-          Creating directory "cmTC_82141.dir\\Debug\\cmTC_82141.tlog\\".
+          Creating directory "cmTC_c02d3.dir\\Debug\\".
+          Creating directory "D:\\github local repos\\frc-note-vision\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tnntvd\\Debug\\".
+          Creating directory "cmTC_c02d3.dir\\Debug\\cmTC_c02d3.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_82141.dir\\Debug\\cmTC_82141.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Creating "cmTC_c02d3.dir\\Debug\\cmTC_c02d3.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
         ClCompile:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_82141.dir\\Debug\\\\" /Fd"cmTC_82141.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.29\\Modules\\CMakeCCompilerABI.c"
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c02d3.dir\\Debug\\\\" /Fd"cmTC_c02d3.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.29\\Modules\\CMakeCCompilerABI.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30154 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
           CMakeCCompilerABI.c
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_82141.dir\\Debug\\\\" /Fd"cmTC_82141.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.29\\Modules\\CMakeCCompilerABI.c"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c02d3.dir\\Debug\\\\" /Fd"cmTC_c02d3.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.29\\Modules\\CMakeCCompilerABI.c"
         Link:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\github local repos\\frc-note-vision\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ervkvr\\Debug\\cmTC_82141.exe" /INCREMENTAL /ILK:"cmTC_82141.dir\\Debug\\cmTC_82141.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/github local repos/frc-note-vision/build/CMakeFiles/CMakeScratch/TryCompile-ervkvr/Debug/cmTC_82141.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/github local repos/frc-note-vision/build/CMakeFiles/CMakeScratch/TryCompile-ervkvr/Debug/cmTC_82141.lib" /MACHINE:X64  /machine:x64 cmTC_82141.dir\\Debug\\CMakeCCompilerABI.obj
-          cmTC_82141.vcxproj -> D:\\github local repos\\frc-note-vision\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ervkvr\\Debug\\cmTC_82141.exe
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\github local repos\\frc-note-vision\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tnntvd\\Debug\\cmTC_c02d3.exe" /INCREMENTAL /ILK:"cmTC_c02d3.dir\\Debug\\cmTC_c02d3.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/github local repos/frc-note-vision/build/CMakeFiles/CMakeScratch/TryCompile-tnntvd/Debug/cmTC_c02d3.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/github local repos/frc-note-vision/build/CMakeFiles/CMakeScratch/TryCompile-tnntvd/Debug/cmTC_c02d3.lib" /MACHINE:X64  /machine:x64 cmTC_c02d3.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_c02d3.vcxproj -> D:\\github local repos\\frc-note-vision\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tnntvd\\Debug\\cmTC_c02d3.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_82141.dir\\Debug\\cmTC_82141.tlog\\unsuccessfulbuild".
-          Touching "cmTC_82141.dir\\Debug\\cmTC_82141.tlog\\cmTC_82141.lastbuildstate".
-        Done Building Project "D:\\github local repos\\frc-note-vision\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ervkvr\\cmTC_82141.vcxproj" (default targets).
+          Deleting file "cmTC_c02d3.dir\\Debug\\cmTC_c02d3.tlog\\unsuccessfulbuild".
+          Touching "cmTC_c02d3.dir\\Debug\\cmTC_c02d3.tlog\\cmTC_c02d3.lastbuildstate".
+        Done Building Project "D:\\github local repos\\frc-note-vision\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tnntvd\\cmTC_c02d3.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:00.49
+        Time Elapsed 00:00:00.48
         
       exitCode: 0
   -
@@ -205,41 +206,42 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "D:/github local repos/frc-note-vision/build/CMakeFiles/CMakeScratch/TryCompile-yyl6ic"
-      binary: "D:/github local repos/frc-note-vision/build/CMakeFiles/CMakeScratch/TryCompile-yyl6ic"
+      source: "D:/github local repos/frc-note-vision/build/CMakeFiles/CMakeScratch/TryCompile-jjtkmb"
+      binary: "D:/github local repos/frc-note-vision/build/CMakeFiles/CMakeScratch/TryCompile-jjtkmb"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
     buildResult:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'D:/github local repos/frc-note-vision/build/CMakeFiles/CMakeScratch/TryCompile-yyl6ic'
+        Change Dir: 'D:/github local repos/frc-note-vision/build/CMakeFiles/CMakeScratch/TryCompile-jjtkmb'
         
-        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe" cmTC_748d4.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe" cmTC_0bd7d.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
         Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
         Copyright (C) Microsoft Corporation. All rights reserved.
         
-        Build started 3/24/2024 6:30:30 PM.
-        Project "D:\\github local repos\\frc-note-vision\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yyl6ic\\cmTC_748d4.vcxproj" on node 1 (default targets).
+        Build started 3/25/2024 12:38:49 AM.
+        Project "D:\\github local repos\\frc-note-vision\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jjtkmb\\cmTC_0bd7d.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_748d4.dir\\Debug\\".
-          Creating directory "D:\\github local repos\\frc-note-vision\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yyl6ic\\Debug\\".
-          Creating directory "cmTC_748d4.dir\\Debug\\cmTC_748d4.tlog\\".
+          Creating directory "cmTC_0bd7d.dir\\Debug\\".
+          Creating directory "D:\\github local repos\\frc-note-vision\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jjtkmb\\Debug\\".
+          Creating directory "cmTC_0bd7d.dir\\Debug\\cmTC_0bd7d.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_748d4.dir\\Debug\\cmTC_748d4.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Creating "cmTC_0bd7d.dir\\Debug\\cmTC_0bd7d.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
         ClCompile:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_748d4.dir\\Debug\\\\" /Fd"cmTC_748d4.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.29\\Modules\\CMakeCXXCompilerABI.cpp"
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_0bd7d.dir\\Debug\\\\" /Fd"cmTC_0bd7d.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.29\\Modules\\CMakeCXXCompilerABI.cpp"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30154 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
           CMakeCXXCompilerABI.cpp
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_748d4.dir\\Debug\\\\" /Fd"cmTC_748d4.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.29\\Modules\\CMakeCXXCompilerABI.cpp"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_0bd7d.dir\\Debug\\\\" /Fd"cmTC_0bd7d.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.29\\Modules\\CMakeCXXCompilerABI.cpp"
         Link:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\github local repos\\frc-note-vision\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yyl6ic\\Debug\\cmTC_748d4.exe" /INCREMENTAL /ILK:"cmTC_748d4.dir\\Debug\\cmTC_748d4.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/github local repos/frc-note-vision/build/CMakeFiles/CMakeScratch/TryCompile-yyl6ic/Debug/cmTC_748d4.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/github local repos/frc-note-vision/build/CMakeFiles/CMakeScratch/TryCompile-yyl6ic/Debug/cmTC_748d4.lib" /MACHINE:X64  /machine:x64 cmTC_748d4.dir\\Debug\\CMakeCXXCompilerABI.obj
-          cmTC_748d4.vcxproj -> D:\\github local repos\\frc-note-vision\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yyl6ic\\Debug\\cmTC_748d4.exe
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\github local repos\\frc-note-vision\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jjtkmb\\Debug\\cmTC_0bd7d.exe" /INCREMENTAL /ILK:"cmTC_0bd7d.dir\\Debug\\cmTC_0bd7d.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/github local repos/frc-note-vision/build/CMakeFiles/CMakeScratch/TryCompile-jjtkmb/Debug/cmTC_0bd7d.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/github local repos/frc-note-vision/build/CMakeFiles/CMakeScratch/TryCompile-jjtkmb/Debug/cmTC_0bd7d.lib" /MACHINE:X64  /machine:x64 cmTC_0bd7d.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_0bd7d.vcxproj -> D:\\github local repos\\frc-note-vision\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jjtkmb\\Debug\\cmTC_0bd7d.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_748d4.dir\\Debug\\cmTC_748d4.tlog\\unsuccessfulbuild".
-          Touching "cmTC_748d4.dir\\Debug\\cmTC_748d4.tlog\\cmTC_748d4.lastbuildstate".
-        Done Building Project "D:\\github local repos\\frc-note-vision\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yyl6ic\\cmTC_748d4.vcxproj" (default targets).
+          Deleting file "cmTC_0bd7d.dir\\Debug\\cmTC_0bd7d.tlog\\unsuccessfulbuild".
+          Touching "cmTC_0bd7d.dir\\Debug\\cmTC_0bd7d.tlog\\cmTC_0bd7d.lastbuildstate".
+        Done Building Project "D:\\github local repos\\frc-note-vision\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jjtkmb\\cmTC_0bd7d.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
