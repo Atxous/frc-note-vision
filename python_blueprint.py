@@ -22,10 +22,12 @@ newcameramatrix, _ = cv2.getOptimalNewCameraMatrix(
     CAMERA_MATRIX, DIST_COEFFS, (1280, 720), 1, (1280, 720)
 )
 
-inst = ntcore.NetworkTableInstance.getDefault()
-table = inst.getTable("jetson")
-pub = table.getDoubleTopic("vision")
-publish = pub.publish
+# -------------ntcore code------------------------
+inst = ntcore.NetworkTableInstance.getDefault()  #
+table = inst.getTable("jetson")                  #
+pub = table.getDoubleTopic("vision")             #
+publish = pub.publish                            #
+# -------------end ntcore code--------------------
 
 while True:
     img = cv2.imread("test_notes\WIN_20240312_16_17_08_Pro.jpg")
