@@ -1,5 +1,6 @@
 import cv2
 import numpy as np
+import ntcore
 
 CAMERA_MATRIX = np.array([[1244.0844, 0, 689.01292],
                           [0, 1273.03374, 464.31946],
@@ -20,6 +21,13 @@ USE_BILATERAL = True
 newcameramatrix, _ = cv2.getOptimalNewCameraMatrix(
     CAMERA_MATRIX, DIST_COEFFS, (1280, 720), 1, (1280, 720)
 )
+
+# -------------ntcore code------------------------
+inst = ntcore.NetworkTableInstance.getDefault()  #
+table = inst.getTable("jetson")                  #
+pub = table.getDoubleTopic("vision")             #
+publish = pub.publish                            #
+# -------------end ntcore code--------------------
 
 while True:
     img = cv2.imread("test_notes\WIN_20240312_16_17_08_Pro.jpg")
@@ -114,6 +122,7 @@ while True:
             
             # coords of x (mm), y (pixels), z (mm), offset angle (degrees)
             coords = [x_mm, center[1], z, angle]
+            publish(coords)
 
             if DISPLAY:
                 cv2.circle(undistorted_image, center, 5, (255, 0, 0), -1)
