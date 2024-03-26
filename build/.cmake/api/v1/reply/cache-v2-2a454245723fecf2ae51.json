@@ -467,7 +467,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : ""
+			"value" : "x64"
 		},
 		{
 			"name" : "CMAKE_GENERATOR_TOOLSET",
@@ -479,7 +479,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : ""
+			"value" : "host=x64"
 		},
 		{
 			"name" : "CMAKE_HOME_DIRECTORY",
@@ -503,7 +503,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "C:/Program Files (x86)/frc-note-vision"
+			"value" : "C:/Program Files/frc-note-vision"
 		},
 		{
 			"name" : "CMAKE_LINKER",

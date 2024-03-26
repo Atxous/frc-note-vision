@@ -12,10 +12,7 @@ set(SOURCES filterByEllipseColor.cpp thresholding.cpp)  # Specify the extension 
 
 add_executable(frc-note-vision ${SOURCES})
 
-link_directories(ntcore-cpp-2024.3.2-linuxarm64/linux/arm64/shared)
-
-# Link the ntcore library to your target
-target_link_libraries(frc-note-vision ${OpenCV_LIBS} ntcore)
+# Link the ntcore library to your targe
 
 # Add the directory containing calculations.h to the include directories
 target_include_directories(frc-note-vision PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})

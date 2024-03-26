@@ -56,6 +56,7 @@ int main() {
         if (img.empty()) {
             continue;
         }
+        img = imread("test_notes/WIN_20240312_16_40_09_Pro.jpg");
         // Get new camera matrix after undistortion
         Mat img_shifted;
         Mat undistorted_image;
