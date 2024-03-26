@@ -125,4 +125,3 @@ while True:
         cv2.imshow("undistorted", undistorted_image)
         if cv2.waitKey(1) & 0xFF == ord('q'):
             break
-    print("hello")
