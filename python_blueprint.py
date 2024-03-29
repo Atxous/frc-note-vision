@@ -110,7 +110,7 @@ while True:
             z = PIXEL_INCH_DEPTH / (1/SCALING_FACTOR * w)
             
             # scale the x coordinate based on bounding box width
-            x_scaler = (1 / w * 360)
+            x_scaler = 360 / w
             
             # get the principal point of the camera
             principal_point = (640, 480)
