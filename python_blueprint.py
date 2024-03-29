@@ -112,8 +112,8 @@ while True:
             x_mm = (center[0] - principal_point[0][0][0]) * x_scaler
             angle = np.arcsin(x_mm / z) * 180 / np.pi
             
-            # coords of x (mm), y (pixels), z (mm), offset angle (degrees)
-            coords = [x_mm, center[1], z, angle]
+            # coords of x (pixels - after undistortion), y (pixels - after undistortion), z (mm), offset angle (degrees)
+            coords = [center[0], center[1], z, angle]
 
             if DISPLAY:
                 cv2.circle(undistorted_image, center, 5, (255, 0, 0), -1)
